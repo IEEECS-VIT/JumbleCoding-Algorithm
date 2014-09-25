@@ -17,7 +17,7 @@ namespace JumbleCoding_Algorithm
                 character = str;
                 if (character > 96 && character < 123)
                 {
-                    character = (char)((int)character + 6);
+                    character = (char)((int)character + 10);
                     if ((int)character > 122)
                     {
                         character = (char)(96 + ((int)character - 122));
@@ -25,7 +25,7 @@ namespace JumbleCoding_Algorithm
                 }
                 if (character > 64 && character < 91)
                 {
-                    character = (char)((int)character + 6);
+                    character = (char)((int)character + 10);
                     if (character > 90)
                     {
                         character = (char)(64 + ((int)character - 90));
@@ -33,7 +33,7 @@ namespace JumbleCoding_Algorithm
                 }
                 if (character > 47 && character < 58)
                 {
-                    character = (char)((int)character + 6);
+                    character = (char)((int)character + 0);
                     if (character > 57)
                     {
                         character = (char)(47 + ((int)character - 57));
