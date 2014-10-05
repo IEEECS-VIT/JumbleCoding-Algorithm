@@ -1,4 +1,6 @@
 JumbleCoding-Algorithm
 ======================
 
-The string jumbling code for the Jumble Coding software
+The Jumbling Library for Jumble Coding. Jumble Coding UI is hosted [here](https://github.com/IEEECS-VIT/JumbleCoding-UI)
+
+Built using Visual Studio 2013. 
